@@ -13,7 +13,7 @@
   
   /* Barra de navegación */
   header {
-    background-color: #e75480;
+    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -48,7 +48,7 @@
   
   /* Hero section */
   .hero {
-    background-color: #ffe4ec;
+    background-color: #f5f5dc;
     height: 85vh;
     display: flex;
     justify-content: center;
@@ -64,7 +64,7 @@
   .hero-content h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: #e75480;
+    color: #FFD700;
   }
   
   .hero-content p {
@@ -73,7 +73,7 @@
   }
   
   .btn {
-    background-color: #ff69b4;
+    background-color: #FFD700;
     color: white;
     padding: 0.75rem 1.5rem;
     border: none;
@@ -85,6 +85,6 @@
   }
   
   .btn:hover {
-    background-color: #e75480;
+    background-color: #cce383;
   }
   
