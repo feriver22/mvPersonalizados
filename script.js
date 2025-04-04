@@ -1,17 +1,6 @@
-const images = ["img1.jpg", "img2.jpg", "img3.jpg"];
-let index = 0;
-
-function showImage(i) {
-  const img = document.getElementById("carousel-img");
-  img.src = images[i];
-}
-
-function nextImage() {
-  index = (index + 1) % images.length;
-  showImage(index);
-}
-
-function prevImage() {
-  index = (index - 1 + images.length) % images.length;
-  showImage(index);
-}
+window.addEventListener('DOMContentLoaded', () => {
+    document.querySelector('.text-block.left').classList.add('fade-in-left');
+    document.querySelector('.text-block.right').classList.add('fade-in-right');
+    document.querySelector('.center-image').classList.add('fade-in-up');
+  });
+  
