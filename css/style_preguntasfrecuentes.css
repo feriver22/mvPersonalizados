@@ -1,0 +1,135 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body y fondo */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff0f5;
+    color: #333;
+}
+
+/* Barra de navegación */
+header {
+    background-color: black; /* Fondo negro como en la imagen */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+/* Logo */
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white; /* Color blanco para el logo */
+}
+
+/* Estilo del menú de navegación */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd6e8; /* Color rosa suave para el hover */
+}
+
+/* Estilo para los títulos */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+    font-size: 2.5rem;
+}
+
+h2 {
+    text-align: center;
+    color: #ff6347; /* Color cálido para h2 */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Sección de preguntas frecuentes */
+.faq {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.faq-item {
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+.faq-item h3 {
+    font-size: 1.25rem;
+    color: #ff6347; /* Rosa para los encabezados de las preguntas */
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Enlaces dentro de las preguntas */
+.faq-item a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.faq-item a:hover {
+    color: #45a049;
+}
+
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .faq-item h3 {
+        font-size: 1.1rem;
+    }
+
+    .faq-item p {
+        font-size: 0.95rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
