@@ -1,0 +1,114 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and background styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7e6f1; /* Suave tono rosa de fondo */
+    color: #333; /* Color de texto oscuro para contraste */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ff61a6; /* Color rosa suave para el hover */
+}
+
+/* Main content section */
+main {
+    padding: 20px;
+}
+
+/* Section styling */
+.SNosotros {
+    background-color: #fff; /* Fondo blanco para las secciones */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.SNosotros h2 {
+    font-size: 24px;
+    color: #ff61a6; /* Rosa para los encabezados */
+    margin-bottom: 10px;
+}
+
+.SNosotros p, .SNosotros ul {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.SNosotros ul {
+    padding-left: 20px;
+}
+
+.SNosotros ul li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+/* Styling for specific sections */
+.Misiontxt, .Visointxt, .Valorestxt {
+    margin-bottom: 30px;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .SNosotros {
+        padding: 15px;
+    }
+
+    .SNosotros h2 {
+        font-size: 20px;
+    }
+
+    .SNosotros p, .SNosotros ul {
+        font-size: 16px;
+    }
+}
