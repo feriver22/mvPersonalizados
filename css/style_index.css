@@ -122,3 +122,16 @@ form button {
 form button:hover {
     background-color: #45a049;
 }
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 40px; /* Ajusta el tamaño de la imagen según sea necesario */
+  height: auto;
+  margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
