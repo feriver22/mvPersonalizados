@@ -47,18 +47,20 @@ nav ul li a:hover {
 }
 
 /* Carrusel */
-/* Carrusel */
 .carrusel {
   position: relative;
-  width: 100%;
-  height: 60vh; /* Mantener el tamaño del carrusel */
+  width: 80%;
+  height: 60vh;
+  margin: 0 auto;
   overflow: hidden;
+  background-color: #fff0f5;
   margin-bottom: 40px;
 }
 
 .imagenes-carrusel {
   display: flex;
   transition: transform 0.5s ease;
+  margin: 0; /* Asegura que no haya margen entre las imágenes */
 }
 
 .imagen-carrusel {
@@ -66,6 +68,7 @@ nav ul li a:hover {
   height: 100%; /* Aseguramos que las imágenes llenen completamente el contenedor */
   object-fit: cover; /* Esto evita que las imágenes se estiren */
 }
+
 
 .botones-carrusel {
   position: absolute;
@@ -93,7 +96,7 @@ nav ul li a:hover {
 
 /* Hero section mejorado */
 .hero {
-  background-color: #f5f5dc;
+  background-color: #fff0f5;
   min-height: 60vh; /* Aumentado para más altura */
   display: flex;
   justify-content: center;
