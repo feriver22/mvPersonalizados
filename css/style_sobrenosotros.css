@@ -117,3 +117,47 @@ main {
         font-size: 16px;
     }
 }
+
+/* Footer styles */
+footer {
+    background-color: #f4f4f4; /* Fondo claro */
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+}
+
+footer .contacto {
+    margin-bottom: 15px;
+}
+
+footer .contacto a {
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+footer .contacto img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+footer .contacto img:hover {
+    transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+}
+
+footer .pfreq {
+    margin-top: 10px;
+}
+
+footer .pfreq a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer .pfreq a:hover {
+    color: #007BFF; /* Cambia el color al pasar el mouse */
+}
