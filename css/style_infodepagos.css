@@ -1,18 +1,18 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body y fondo */
+
 body {
     font-family: 'Segoe UI', sans-serif;
     background-color: #fff0f5;
     color: #333;
 }
 
-/* Barra de navegación */
+
 header {
     background-color: black;
     display: flex;
@@ -55,7 +55,7 @@ header {
     color: #ffd6e8;
   }
 
-/* Estilo para los títulos */
+
 h1 {
     text-align: center;
     margin-top: 30px;
@@ -63,7 +63,7 @@ h1 {
     font-size: 2.5rem;
 }
 
-/* Estilo para las cajas de preguntas frecuentes */
+
 .faq-item {
     background-color: white;
     border-radius: 8px;
@@ -72,10 +72,10 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* Títulos dentro de las cajitas */
+
 .faq-item h2 {
     font-size: 1.75rem;
-    color: #ff6347; /* Rosa para los encabezados */
+    color: #ff6347; 
     margin-bottom: 10px;
 }
 
@@ -85,9 +85,9 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* Footer styles */
+
 footer {
-    background-color: #f4f4f4; /* Fondo claro */
+    background-color: #f4f4f4;
     padding: 20px;
     text-align: center;
     border-top: 1px solid #ddd;
@@ -111,7 +111,7 @@ footer .contacto img {
 }
 
 footer .contacto img:hover {
-    transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+    transform: scale(1.1); 
 }
 
 footer .pfreq {
@@ -126,5 +126,5 @@ footer .pfreq a {
 }
 
 footer .pfreq a:hover {
-    color: #007BFF; /* Cambia el color al pasar el mouse */
+    color: #007BFF; 
 }

@@ -1,18 +1,18 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body y fondo */
+
 body {
     font-family: 'Segoe UI', sans-serif;
     background-color: #fff0f5;
     color: #333;
 }
 
-/* Barra de navegación */
+
 header {
     background-color: black;
     display: flex;
@@ -55,7 +55,7 @@ header {
     color: #ffd6e8;
   }
 
-/* Estilo para los títulos */
+
 h1 {
     text-align: center;
     margin-top: 30px;
@@ -65,12 +65,12 @@ h1 {
 
 h2 {
     text-align: center;
-    color: #ff6347; /* Color cálido para h2 */
+    color: #ff6347; 
     font-size: 2rem;
     margin-bottom: 20px;
 }
 
-/* Sección de preguntas frecuentes */
+
 .faq {
     padding: 20px;
     margin: 0 auto;
@@ -87,7 +87,7 @@ h2 {
 
 .faq-item h3 {
     font-size: 1.25rem;
-    color: #ff6347; /* Rosa para los encabezados de las preguntas */
+    color: #ff6347; 
     margin-bottom: 10px;
 }
 
@@ -96,7 +96,7 @@ h2 {
     color: #333;
 }
 
-/* Enlaces dentro de las preguntas */
+
 .faq-item a {
     color: #4CAF50;
     text-decoration: none;
@@ -106,7 +106,7 @@ h2 {
     color: #45a049;
 }
 
-/* Media query para pantallas pequeñas */
+
 @media screen and (max-width: 768px) {
     header {
         flex-direction: column;
@@ -135,9 +135,9 @@ h2 {
     }
 }
 
-/* Footer styles */
+
 footer {
-    background-color: #f4f4f4; /* Fondo claro */
+    background-color: #f4f4f4; 
     padding: 20px;
     text-align: center;
     border-top: 1px solid #ddd;
@@ -161,7 +161,7 @@ footer .contacto img {
 }
 
 footer .contacto img:hover {
-    transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+    transform: scale(1.1); 
 }
 
 footer .pfreq {
@@ -176,5 +176,5 @@ footer .pfreq a {
 }
 
 footer .pfreq a:hover {
-    color: #007BFF; /* Cambia el color al pasar el mouse */
+    color: #007BFF; 
 }

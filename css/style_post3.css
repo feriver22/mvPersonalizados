@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,8 +11,7 @@
     color: #333;
   }
   
-  /* Barra de navegación del segundo CSS (actualizada con los estilos del primero) */
-  /* Barra de navegación */
+
 header {
     background-color: black;
     display: flex;
@@ -54,7 +53,7 @@ header {
   }
   
   
-  /* El resto del CSS original del segundo archivo */
+  
   .diseños-populares {
       background-color: #f7f7f7; /* Beige suave */
       padding: 60px 0;

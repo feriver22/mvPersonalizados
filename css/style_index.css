@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ body {
   color: #333;
 }
 
-/* Barra de navegación */
+
 header {
   background-color: black;
   display: flex;
@@ -67,13 +67,13 @@ nav ul li a:hover {
 .imagenes-carrusel {
   display: flex;
   transition: transform 0.5s ease;
-  margin: 0; /* Asegura que no haya margen entre las imágenes */
+  margin: 0; 
 }
 
 .imagen-carrusel {
   width: 100%;
-  height: 100%; /* Aseguramos que las imágenes llenen completamente el contenedor */
-  object-fit: cover; /* Esto evita que las imágenes se estiren */
+  height: 100%; 
+  object-fit: cover; 
 }
 
 
@@ -104,17 +104,17 @@ nav ul li a:hover {
 /* Hero section mejorado */
 .hero {
   background-color: #fff0f5;
-  min-height: 60vh; /* Aumentado para más altura */
+  min-height: 60vh; 
   display: flex;
   justify-content: center;
-  align-items: center; /* Centramos verticalmente */
+  align-items: center; 
   text-align: center;
   padding: 3rem 2rem;
 }
 
 .hero-content {
   max-width: 800px;
-  text-align: center; /* Centrado horizontal */
+  text-align: center; 
 }
 
 .hero-content h1 {
@@ -193,12 +193,12 @@ form button:hover {
 .logo-img {
   width: 40px;
   height: auto;
-  margin-right: 10px; /* Espacio entre la imagen y el texto */
+  margin-right: 10px; 
 }
 
 /* Footer styles */
 footer {
-  background-color: #f4f4f4; /* Fondo claro */
+  background-color: #f4f4f4; 
   padding: 20px;
   text-align: center;
   border-top: 1px solid #ddd;
@@ -222,7 +222,7 @@ footer .contacto img {
 }
 
 footer .contacto img:hover {
-  transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+  transform: scale(1.1); 
 }
 
 footer .pfreq {
@@ -237,5 +237,5 @@ footer .pfreq a {
 }
 
 footer .pfreq a:hover {
-  color: #007BFF; /* Cambia el color al pasar el mouse */
+  color: #007BFF; 
 }

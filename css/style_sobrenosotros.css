@@ -1,18 +1,18 @@
-/* Reset básico */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body y fondo */
+
 body {
     font-family: 'Segoe UI', sans-serif;
     background-color: #fff0f5;
     color: #333;
 }
 
-/* Barra de navegación */
+
 header {
     background-color: black;
     display: flex;
@@ -37,7 +37,7 @@ header .logo-img {
     border-radius: 50%;
 }
 
-/* Estilo del menú de navegación */
+
 nav ul {
     list-style: none;
     display: flex;
@@ -56,26 +56,26 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffd6e8; /* Color rosa suave para el hover */
+    color: #ffd6e8; 
 }
 
-/* Contenido principal */
+
 main {
     padding: 20px;
 }
 
-/* Estilo para las secciones */
+
 .SNosotros {
-    background-color: #fff; /* Fondo blanco para las secciones */
+    background-color: #fff;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilo de los encabezados */
+
 .SNosotros h2 {
     font-size: 24px;
-    color: #ff61a6; /* Rosa para los encabezados */
+    color: #ff61a6; 
     margin-bottom: 10px;
 }
 
@@ -93,12 +93,12 @@ main {
     line-height: 1.5;
 }
 
-/* Estilo de las secciones específicas */
+
 .Misiontxt, .Visointxt, .Valorestxt {
     margin-bottom: 30px;
 }
 
-/* Media query para pantallas pequeñas */
+
 @media screen and (max-width: 768px) {
     header {
         flex-direction: column;
@@ -125,7 +125,7 @@ main {
 
 /* Footer styles */
 footer {
-    background-color: #f4f4f4; /* Fondo claro */
+    background-color: #f4f4f4; 
     padding: 20px;
     text-align: center;
     border-top: 1px solid #ddd;
@@ -149,7 +149,7 @@ footer .contacto img {
 }
 
 footer .contacto img:hover {
-    transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+    transform: scale(1.1); 
 }
 
 footer .pfreq {
@@ -164,5 +164,5 @@ footer .pfreq a {
 }
 
 footer .pfreq a:hover {
-    color: #007BFF; /* Cambia el color al pasar el mouse */
+    color: #007BFF; 
 }

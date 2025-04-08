@@ -70,23 +70,23 @@ header nav ul li a:hover {
 
 /* Sección de contenido */
 h1 {
-    font-size: 2.8em; /* Ajuste del tamaño de la fuente */
+    font-size: 2.8em; 
     color: #e20075;
     text-align: center;
     margin-top: 20px;
-    line-height: 1.5; /* Ajuste de interlineado */
+    line-height: 1.5; 
 }
 
 h2 {
-    font-size: 1.9em; /* Ajuste del tamaño de la fuente */
+    font-size: 1.9em; 
     color: #e20075;
     margin-top: 30px;
-    line-height: 1.6; /* Ajuste de interlineado */
+    line-height: 1.6; 
 }
 
 p {
-    font-size: 1.2em; /* Aumentar el tamaño de la fuente */
-    line-height: 1.8; /* Interlineado suave */
+    font-size: 1.2em; 
+    line-height: 1.8; 
     color: #444;
     text-align: justify;
     margin-bottom: 20px;
@@ -102,8 +102,8 @@ ul li {
     color: #555;
     padding-left: 0;
     position: relative;
-    line-height: 1.8; /* Ajuste de interlineado */
-    margin-bottom: 15px; /* Espaciado entre los elementos */
+    line-height: 1.8; 
+    margin-bottom: 15px; 
 }
 
 /* Botón */
