@@ -91,22 +91,20 @@ nav ul li a:hover {
 }
 
 
-/* Hero section */
-/* Hero section */
+/* Hero section mejorado */
 .hero {
   background-color: #f5f5dc;
-  height: 35vh;
+  min-height: 60vh; /* Aumentado para más altura */
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center; /* Centramos verticalmente */
   text-align: center;
-  padding: 5rem 2rem;
+  padding: 3rem 2rem;
 }
 
 .hero-content {
-  max-width: 600px;
-  text-align: justify; /* Justificado para el texto */
-  margin-top: 1rem; /* Agregado un poco de margen superior */
+  max-width: 800px;
+  text-align: center; /* Centrado horizontal */
 }
 
 .hero-content h1 {
@@ -117,13 +115,14 @@ nav ul li a:hover {
 
 .hero-content p {
   font-size: 1.2rem;
-  margin-bottom: 1.5rem; /* Ajustado para separar más los párrafos */
-  line-height: 1.6; /* Aumentado para mejorar la legibilidad */
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  line-height: 1.6;
 }
 
-/* Botón */
 .btn {
-  margin-top: 1.5rem; /* Agregado margen superior para separar el texto del botón */
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   background-color: #FFD700;
   color: white;
   padding: 0.75rem 1.5rem;
@@ -138,7 +137,6 @@ nav ul li a:hover {
 .btn:hover {
   background-color: #cce383;
 }
-
 
 form {
   max-width: 600px;
