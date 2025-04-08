@@ -1,61 +1,65 @@
-/* Reset basic styles */
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body and background styling */
+/* Body y fondo */
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f7e6f1; /* Suave tono rosa de fondo */
-    color: #333; /* Color de texto oscuro para contraste */
-    line-height: 1.6;
-    padding: 20px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff0f5;
+    color: #333;
 }
 
-/* Header styling */
+/* Barra de navegación */
 header {
-    background-color: #333; /* Fondo oscuro */
-    color: #fff; /* Texto blanco */
-    padding: 20px;
+    background-color: black; /* Fondo negro como en la imagen */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1rem 2rem;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
+/* Logo */
 header .logo {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
+    color: white; /* Color blanco para el logo */
 }
 
-header nav ul {
-    list-style-type: none;
+/* Estilo del menú de navegación */
+nav ul {
+    list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 1.5rem;
 }
 
-header nav ul li {
+nav ul li {
     display: inline-block;
 }
 
-header nav ul li a {
-    color: #fff;
+nav ul li a {
+    color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-weight: bold;
     transition: color 0.3s ease;
 }
 
-header nav ul li a:hover {
-    color: #ff61a6; /* Color rosa suave para el hover */
+nav ul li a:hover {
+    color: #ffd6e8; /* Color rosa suave para el hover */
 }
 
-/* Main content section */
+/* Contenido principal */
 main {
     padding: 20px;
 }
 
-/* Section styling */
+/* Estilo para las secciones */
 .SNosotros {
     background-color: #fff; /* Fondo blanco para las secciones */
     border-radius: 8px;
@@ -63,6 +67,7 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Estilo de los encabezados */
 .SNosotros h2 {
     font-size: 24px;
     color: #ff61a6; /* Rosa para los encabezados */
@@ -83,12 +88,12 @@ main {
     line-height: 1.5;
 }
 
-/* Styling for specific sections */
+/* Estilo de las secciones específicas */
 .Misiontxt, .Visointxt, .Valorestxt {
     margin-bottom: 30px;
 }
 
-/* Media query for responsiveness */
+/* Media query para pantallas pequeñas */
 @media screen and (max-width: 768px) {
     header {
         flex-direction: column;
