@@ -1,0 +1,174 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Importar fuentes de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Estilos base personalizados */
+@layer base {
+  * {
+    @apply m-0 p-0 box-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply font-sans text-secondary-800 bg-primary-50;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-semibold;
+  }
+}
+
+/* Componentes personalizados */
+@layer components {
+  /* Header moderno */
+  .header-modern {
+    @apply bg-secondary-900 text-white sticky top-0 z-50 shadow-lg backdrop-blur-sm bg-opacity-95;
+  }
+
+  .nav-link {
+    @apply text-white font-medium transition-all duration-300 hover:text-primary-500 hover:scale-105 relative;
+  }
+
+  .nav-link::after {
+    @apply content-[''] absolute bottom-0 left-0 w-0 h-0.5 bg-primary-500 transition-all duration-300;
+  }
+
+  .nav-link:hover::after {
+    @apply w-full;
+  }
+
+  /* Logo moderno */
+  .logo-modern {
+    @apply flex items-center gap-3 text-xl font-display font-bold;
+  }
+
+  .logo-img {
+    @apply w-12 h-12 rounded-full object-cover shadow-lg transition-transform duration-300 hover:scale-110;
+  }
+
+  /* Botones modernos */
+  .btn-primary {
+    @apply bg-primary-500 text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-primary-600 hover:shadow-xl transform hover:scale-105 transition-all duration-300;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary-100 text-secondary-800 px-6 py-3 rounded-full font-semibold shadow-md hover:bg-secondary-200 hover:shadow-lg transform hover:scale-105 transition-all duration-300;
+  }
+
+  /* Carrusel moderno */
+  .carousel-container {
+    @apply relative w-full max-w-6xl mx-auto h-96 md:h-[500px] overflow-hidden rounded-2xl shadow-2xl;
+  }
+
+  .carousel-images {
+    @apply flex transition-transform duration-500 ease-in-out h-full;
+  }
+
+  .carousel-image {
+    @apply w-full h-full object-cover flex-shrink-0;
+  }
+
+  .carousel-buttons {
+    @apply absolute bottom-6 left-1/2 transform -translate-x-1/2 flex gap-3;
+  }
+
+  .carousel-button {
+    @apply w-4 h-4 rounded-full bg-white bg-opacity-70 hover:bg-primary-500 transition-all duration-300 cursor-pointer;
+  }
+
+  .carousel-button.active {
+    @apply bg-primary-500;
+  }
+
+  /* Hero section moderno */
+  .hero-modern {
+    @apply min-h-screen flex items-center justify-center bg-gradient-to-br from-primary-50 via-white to-primary-100 py-20;
+  }
+
+  .hero-content {
+    @apply max-w-4xl mx-auto text-center px-6;
+  }
+
+  .hero-title {
+    @apply text-4xl md:text-6xl font-display font-bold text-secondary-900 mb-6 leading-tight;
+  }
+
+  .hero-subtitle {
+    @apply text-xl md:text-2xl text-secondary-600 mb-8 leading-relaxed;
+  }
+
+  .hero-description {
+    @apply text-lg text-secondary-700 leading-relaxed max-w-3xl mx-auto;
+  }
+
+  /* Cards modernas */
+  .card-modern {
+    @apply bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 p-6;
+  }
+
+  /* Footer moderno */
+  .footer-modern {
+    @apply bg-secondary-900 text-white py-12;
+  }
+
+  .social-link {
+    @apply inline-block p-3 bg-secondary-800 rounded-full hover:bg-primary-500 transition-all duration-300 transform hover:scale-110;
+  }
+
+  .social-icon {
+    @apply w-6 h-6;
+  }
+
+  /* Animaciones */
+  .fade-in {
+    @apply animate-fade-in;
+  }
+
+  .slide-up {
+    @apply animate-slide-up;
+  }
+
+  .bounce-gentle {
+    @apply animate-bounce-gentle;
+  }
+
+  /* Responsive utilities */
+  .container-modern {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Gradientes modernos */
+  .gradient-primary {
+    @apply bg-gradient-to-r from-primary-500 to-primary-600;
+  }
+
+  .gradient-secondary {
+    @apply bg-gradient-to-r from-secondary-600 to-secondary-800;
+  }
+
+  /* Efectos de hover */
+  .hover-lift {
+    @apply transition-transform duration-300 hover:-translate-y-2;
+  }
+
+  .hover-glow {
+    @apply transition-shadow duration-300 hover:shadow-2xl;
+  }
+}
+
+/* Utilidades personalizadas */
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary-500 to-primary-600 bg-clip-text text-transparent;
+  }
+
+  .glass-effect {
+    @apply backdrop-blur-sm bg-white bg-opacity-10 border border-white border-opacity-20;
+  }
+} 

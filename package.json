@@ -1,0 +1,27 @@
+{
+  "name": "mvpersonalizados",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build:css": "tailwindcss -i ./src/main.css -o ./dist/main.css --watch",
+    "build:css:prod": "tailwindcss -i ./src/main.css -o ./dist/main.css --minify",
+    "build:prod": "npm run build:css:prod && vite build",
+    "build:github": "NODE_ENV=production npm run build:css:prod && vite build",
+    "deploy": "npm run build:css:prod && git add . && git commit -m 'Build for production' && git push",
+    "deploy:github": "npm run build:github && git add . && git commit -m 'Build for GitHub Pages' && git push"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "react-router-dom": "^7.7.1"
+  }
+}

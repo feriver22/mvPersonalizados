@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff0f5;
+    color: #333;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-500 text-white px-6 py-3 rounded-full font-bold shadow-lg transition-all duration-300 hover:bg-primary-600 hover:scale-105;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary-900 text-white px-6 py-3 rounded-full font-bold shadow-lg transition-all duration-300 hover:bg-gray-800 hover:scale-105;
+  }
+
+  .card {
+    @apply bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl hover:scale-105;
+  }
+
+  .section-padding {
+    @apply py-16 px-4;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary-500 to-primary-600 bg-clip-text text-transparent;
+  }
+} 
