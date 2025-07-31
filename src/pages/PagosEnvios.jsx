@@ -74,7 +74,7 @@ const PagosEnvios = () => {
             </div>
           </div>
 
-          {/* Opciones de Envío */}
+        
           <div className="bg-white rounded-lg p-8 shadow-lg">
             <h2 className="text-2xl font-bold mb-6 text-gray-800">
               Opciones de Envío

@@ -52,7 +52,6 @@ const NuevasRetrateras = () => {
           ))}
         </div>
 
-        {/* Destacado especial */}
         <div className="mt-16 bg-secondary-900 rounded-lg p-8 text-white">
           <h2 className="text-3xl font-bold mb-4 text-center">
             ¿Por qué elegir una retratera?

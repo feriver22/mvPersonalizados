@@ -22,7 +22,6 @@ const Contactanos = () => {
     e.preventDefault()
     setIsSubmitting(true)
     
-    // Simular envío del formulario
     try {
       await new Promise(resolve => setTimeout(resolve, 2000))
       setSubmitStatus('success')

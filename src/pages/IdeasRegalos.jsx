@@ -69,7 +69,7 @@ const IdeasRegalos = () => {
           ))}
         </div>
 
-        {/* Sección de consejos */}
+        {}
         <div className="mt-16 bg-white rounded-lg p-8 shadow-lg">
           <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">
             Consejos para Elegir el Regalo Perfecto
