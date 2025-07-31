@@ -2,10 +2,10 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-/* Importar fuentes de Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
 
-/* Estilos base personalizados */
+
 @layer base {
   * {
     @apply m-0 p-0 box-border;
@@ -24,9 +24,9 @@
   }
 }
 
-/* Componentes personalizados */
+
 @layer components {
-  /* Header moderno */
+
   .header-modern {
     @apply bg-secondary-900 text-white sticky top-0 z-50 shadow-lg backdrop-blur-sm bg-opacity-95;
   }
@@ -43,7 +43,7 @@
     @apply w-full;
   }
 
-  /* Logo moderno */
+
   .logo-modern {
     @apply flex items-center gap-3 text-xl font-display font-bold;
   }
@@ -52,7 +52,7 @@
     @apply w-12 h-12 rounded-full object-cover shadow-lg transition-transform duration-300 hover:scale-110;
   }
 
-  /* Botones modernos */
+
   .btn-primary {
     @apply bg-primary-500 text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-primary-600 hover:shadow-xl transform hover:scale-105 transition-all duration-300;
   }
@@ -61,7 +61,7 @@
     @apply bg-secondary-100 text-secondary-800 px-6 py-3 rounded-full font-semibold shadow-md hover:bg-secondary-200 hover:shadow-lg transform hover:scale-105 transition-all duration-300;
   }
 
-  /* Carrusel moderno */
+
   .carousel-container {
     @apply relative w-full max-w-6xl mx-auto h-96 md:h-[500px] overflow-hidden rounded-2xl shadow-2xl;
   }
@@ -86,7 +86,7 @@
     @apply bg-primary-500;
   }
 
-  /* Hero section moderno */
+
   .hero-modern {
     @apply min-h-screen flex items-center justify-center bg-gradient-to-br from-primary-50 via-white to-primary-100 py-20;
   }
@@ -107,12 +107,12 @@
     @apply text-lg text-secondary-700 leading-relaxed max-w-3xl mx-auto;
   }
 
-  /* Cards modernas */
+
   .card-modern {
     @apply bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 p-6;
   }
 
-  /* Footer moderno */
+
   .footer-modern {
     @apply bg-secondary-900 text-white py-12;
   }
@@ -125,7 +125,7 @@
     @apply w-6 h-6;
   }
 
-  /* Animaciones */
+
   .fade-in {
     @apply animate-fade-in;
   }
@@ -138,12 +138,12 @@
     @apply animate-bounce-gentle;
   }
 
-  /* Responsive utilities */
+
   .container-modern {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
 
-  /* Gradientes modernos */
+
   .gradient-primary {
     @apply bg-gradient-to-r from-primary-500 to-primary-600;
   }
@@ -152,7 +152,7 @@
     @apply bg-gradient-to-r from-secondary-600 to-secondary-800;
   }
 
-  /* Efectos de hover */
+
   .hover-lift {
     @apply transition-transform duration-300 hover:-translate-y-2;
   }
@@ -162,7 +162,7 @@
   }
 }
 
-/* Utilidades personalizadas */
+
 @layer utilities {
   .text-gradient {
     @apply bg-gradient-to-r from-primary-500 to-primary-600 bg-clip-text text-transparent;
